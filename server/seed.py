@@ -21,4 +21,4 @@ with app.app_context():
 
     db.session.add_all([app1, app2])
     db.session.commit()
-    print("✅ Seed complete")
+    print("Seed complete")
